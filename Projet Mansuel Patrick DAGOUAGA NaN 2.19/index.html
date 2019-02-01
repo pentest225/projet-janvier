@@ -1,0 +1,375 @@
+<!doctype html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width ,initial-scale=1.0">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="" media="li">
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-inverse navbar-fixed-top menu">
+		<div class="container" >
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#MyMenu">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div class="navbar-brand">
+					<ul class="nav navbar-nav logo">
+						<li><img src="resourses/images/logo.jpeg" width="80" height="60" class=""></li>
+						<li><a href="#"><h3 style="color:orange;font-weight:bolder">Akwaba Hoooo :)</h3></a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- SECTION MENU -->
+			<div class="collapse navbar-collapse " id="MyMenu">
+				<ul class="nav navbar-nav navbar">
+					<!-- MENU DEROULANT -->
+					<li><a href="" class="dropdown-toggle" data-toggle="dropdown">Pourqoi La cote d'ivoire</a>  
+						<ul class="dropdown-menu">
+								<li><a href="#presnetation">Presantation</a> </li>
+								<li><a href="#vidoe_font">Decouvrire la musique Affricaine </a> </li>
+								<li><a href="#port-folio">La Cote d'ivoire en images</a>  </li>
+							</ul>
+					</li>
+					
+					<li><a href="#presnetation1">Actualite </a>  </li>
+					<li><a href="#port-folio">Meilleur Site </a>  </li>
+					<li><a href="#google_map">Itineraire</a>  </li>
+					<li><a href="#About_My" data-toggle="modal" data-target="#Mymodal2">About My ;{</a>  </li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+		
+	</header>
+	<!-- SECTION DES IMAGES DEFILLANTES -->
+	<section id="Slider">
+		<div id="Mycarousel" class="carousel slide " data-ride="carousel">
+			
+			<ol class="carousel-indicators">
+				<li data-target="#Mycarousel" data-slide-to="0" class="active"></li> 
+				<li data-target="#Mycarousel" data-slide-to="1"></li>
+				<li data-target="#Mycarousel" data-slide-to="2"></li>
+			</ol>
+
+			<div class="carousel-inner " role="listbox" style="min-width:100%;min-height: 100%">
+
+				<div class="item active">
+					<img src="resourses/images/images.jpeg">
+					<div class="carousel-caption">
+						<h3>ADIDJAN BY NIGHT</h3> 
+					</div>
+				</div>
+				<div class="item ">
+					<img src="resourses/images/images1.jpeg">
+					<div class="carousel-caption">
+						<h3>Achithect de Nature</h3> 
+					</div>
+				</div>
+				<div class="item ">
+					<img src="resourses/images/image2.jpeg ">
+					<div class="carousel-caption">
+						<h3>Un inonovation encestralle et hort du commun</h3> 
+					</div>
+				</div>
+				
+			</div>
+
+
+			<a href="#Mycarousel" class="left carousel-control" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+			</a>
+			<a href="#Mycarousel" class="right carousel-control" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+			</a>
+		</div>
+	</section>
+	<!-- FIN DES IMAGS DEFFILANTES 	 -->
+		<section id="presantation">
+            <div class="presantation_gauche">
+                <h1>Presantation et objectifs</h1>
+                <p>
+						Depuis quelques années, le gouvernement ivoirien ambitionne de faire de la Côte d’Ivoire au plan touristique, l’un des dix premiers pays en Afrique et la première destination en Afrique de l’Ouest, à l’horizon 2030.
+						A cet effet, plusieurs outils ont été mis en place pour accompagner Côte d’Ivoire Tourisme, l’Office National du Tourisme, dans sa mission ; notamment le décret numéro 2014-08 du 08 janvier 2014 déterminant ses attributions, son organisation et son fonctionnement.	
+				</p>
+		</section>
+	<!-- IMAGE FIXED -->
+	<section id="Image_fixed">
+		<div class="container  contenue">
+			<div class="content">
+				<h1>Un paradis terestre </h1>
+				<a href="" class="adhesion" data-toggle="modal" data-target="#Mymodal">decouvrez ses plaisir et richesses ;-)</a>
+			</div>
+		</div>
+	</section>
+	<section id="presantation1">
+            <div class="presantation_gauche">
+                <h1>Nos meilleurs sites Et culture</h1>
+                <p>
+						Trouvez ici notre selection de sites et attracations touristiques à ne pas manquez si vous êtes en Côte d’Ivoire.
+
+						Retrouvez aussi les évènements du moment.
+				</p>
+		</section>
+<!-- SECTION MUSIQUE -->
+	<section id="vidoe_font">
+		<video src="resourses/videos/videoplayback.mp4" controls  class="video" width="100%" height="400px"></video>
+		<div class="contenue">
+			<h3>Les meilleurs musiques Affricaine</h3>
+		</div>
+	</section>
+<!-- FIN SECTION MUSIQUE -->
+<!-- FIN DELA DEUXIEME SECTION DE PRESANTATION -->
+<!-- SECTION DU modal -->
+		<div class="modal fade" id="Mymodal" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal">x</button>
+						<h1 style="color:orange">Akwabaaaa Tristique vos sohaite la bien venue</h1>
+
+					</div>
+					<div class="modal-body">
+						<p style="color:orange">Mercie de bien vouloir sairir vos infromation ;-)</p>
+						<div class="container">
+							<form class="form" style="width:300px">
+								<div class="form-group " >
+									<label for="name" class="">Nome</label>
+									<input type="text"id="name" class=" form-control">
+								</div>
+								<div class="form-group " >
+										<label for="name">Email</label>
+										<input type="email" id="name" class="form-control">
+								</div>
+								<div class="form-group">
+									<label for="destination">Votre destination </label>
+									<select name="destination" id="destination" class="form-control"> 
+										<option value="">...</option>
+										<option value="">La forret du Banco</option>
+										<option value="">Visiter le troisieme pont </option>
+										<option value="">Les Cascads de mam</option>
+										<option value="">La forret du Banco</option>
+										<option value="">Visiter le troisieme pont </option>
+									</select>
+								</div>
+								<div class="form-group">
+										<label for="destination">Mode de voyage </label>
+										<select name="destination" id="destination" class="form-control"> 
+											<option value="">...</option>
+											<option value="">En coucle</option>
+											<option value="">En solo</option>
+											<option value="">En famille</option>
+											<option value="">Communotee</option>
+										</select>
+									</div>
+								<div class="form-group" style="margin:5px">
+									<button class="btn btn-success"> valide </button>
+								</div>
+							</form>
+						</div>
+						
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-default" data-dismiss="modal">fremer </button>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+<!-- SECTION DU modal -->
+<!-- SECTION MODAL 2 -->
+<!-- SECTION DU modal -->
+<div class="modal fade" id="Mymodal1" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button class="close" data-dismiss="modal">x</button>
+					<h1 style="color:orange">DECOUVRIRE UN SITE TOURISTIQUE</h1>
+					<p style="color:orange"> <strong>;)</strong> oups la vestion integralle du site n'est pas encord disponinible <strong>;)</strong></p>
+				</div>
+				<div class="modal-body modal-body1">
+					<p style="color:orange"> <strong>;)</strong> oups la vestion integralle du site n'est pas encord disponinible <strong>;)</strong></p>
+					<div class="container ">
+						
+					</div>
+					
+				</div>
+				<div class="modal-footer">
+					<button class="btn btn-default" data-dismiss="modal">fremer </button>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<!-- SECTION MODAL 2 -->
+	<div class="modal fade" id="Mymodal2" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal">x</button>
+						<h1 style="color:orange">Qui je suis </h1>
+	
+					</div>
+					<div class="modal-body modal-body2">
+						<div class="container-fluid ">										<div class="image">
+												<img src="resourses/images/patrick.jpg"  class="img-circle" style="height:250px ">
+												<button class="btn btn-warning btn btn-md bouton" >Nanien 2.19 </button>
+											</div>
+											<div class="cv">
+												<h3>Nom :</h3><small style="font-size:1.5em">Patrick Dagouaga</small>
+												<h3>Statut :</h3><small style="font-size:1.5em">Etudient Multi plateforme ;-}</small>
+												<h3>Profession :</h3><small style="font-size:1.5em">Developpeur</small>
+												<h3>Email :</h3><small style="font-size:1.5em">Patrick.dagouaga@gmail.com</small>
+												<h3>Contact:</h3><small style="font-size:1.5em">79962642/05440536</small>
+											</div>
+								</div>	
+						
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-default" data-dismiss="modal">fremer</button>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	<!-- SECTION IMAGES -->
+<section id="port-folio">
+	<div class="container-fluid">
+		<div class="header">
+			<h2>La cote d'ivoire en image </h2>
+		</div>
+		<div class="row">
+			<!-- IMAGE 1 -->
+			<div class="col-sm-4 thumbnail " id="image1">
+				<a href="">
+					<img src="resourses/images/park national.jpg" alt="cascade-de-man">
+				</a>
+				<div class="next">
+					<h3>beaucoup plus de nature</h3>
+					<a href="" class="adhesion1 btn btn-success" data-toggle="modal" data-target="#Mymodal1">Decouvrire ;-)</a>
+				</div>
+			</div>
+			<!-- IMAGE 2 -->
+			<div class="col-sm-4 thumbnail image">
+				<a href="">
+					<img src="resourses/images/dabali.jpg" alt="cascade-de-man">		
+				</a>
+				<div class="next">
+					<h3>plus de gout a partager</h3>
+					<a href="" class="adhesion1 btn btn-success" data-toggle="modal" data-target="#Mymodal1">Decouvrire ;-)</a>
+				</div>
+			</div>
+			<!-- IMAGE 3 -->
+			<div class="col-sm-4 thumbnail image">
+				<a href="">
+					<img src="resourses/images/infrastructure.jpg" alt="cascade-de-man">
+				</a>
+				<div class="next">
+					<h3>des infrastructure de Qualite</h3>
+					<a href="" class="adhesion1 btn btn-success" data-toggle="modal" data-target="#Mymodal1">Decouvrire ;-)</a>
+				</div>
+			</div>
+		</div>
+		<!-- LINGE 2 DES IMAGES -->
+		<div class="row">
+			<!-- IMAGE 1 -->
+				<div class="col-sm-4 thumbnail image">
+					<a href="">
+						<img src="resourses/images/cascade-de-man.jpg" alt="cascade-de-man">
+					</a>
+					<div class="next">
+						<h3>Les cascaedes de man </h3>
+						<a href="" class="adhesion1 btn btn-success" data-toggle="modal" data-target="#Mymodal1">Decouvrire ;-)</a>
+					</div>
+				</div>
+			<!-- IMAGE 2 -->
+				<div class="col-sm-4 thumbnail image">
+					<a href="">
+						<img src="resourses/images/languen.jpg" alt="cascade-de-man">
+					</a>
+					<div class="next">
+							<h3>LA Lagune ebrier </h3>
+						<a href="" class="adhesion1 btn btn-success" data-toggle="modal" data-target="#Mymodal1">Decouvrire ;-)</a>
+					</div>
+				</div>
+				<div class="col-sm-4 thumbnail image">
+					<a href="">
+						<img src="resourses/images/monogaga.jpg" alt="cascade-de-man">
+					</a>
+					<div class="next">
+							<h3>Souptieuse plage de Monogaga</h3>
+						<a href="" class="adhesion1 btn btn-success" data-toggle="modal" data-target="#Mymodal1">Decouvrire ;-)</a>
+					</div>
+				</div>
+			</div>
+	</div>
+
+</section>
+<!-- FIN DE LA SECTION IMAGES -->
+	<footer>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="Nos_contactes col-md-6">
+					<form action="#" class="form">
+						<h2>Nous contacte </h2>
+						<div class="form-group">
+								<span class="glyphicon glyphicon-name"></span><input type="name" class="form-control" placeholder="Votre Non ... ">
+						</div>
+						<div class="form-group">
+							<label for="Text"><span class="glyphicon glyphicon-comment"> </span>Vos critiques et remarques </label>
+							<textarea  class="form-control" id="Text"></textarea>
+						</div>
+					</form>
+					<div class="container">
+							<ul class=" reseaux_sociaux">
+								<li><a href="#"><img src="resourses/images/logoFb.png"  style="width: 50px;height: 50px " class="img-circle"> </a>  </li>
+								<li><a href="#"><img src="resourses/images/tweter.png" style="width: 50px;height: 50px " class="img-circle"></a>  </li>
+								<li><a href="#"><img src="resourses/images/youtube.png" style="width: 50px;height: 50px " class="img-circle"></a>  </li>
+							</ul>
+					</div>
+					<div >
+							<a href="" class="btn btn-info btn-lg adhesion" data-toggle="modal" data-target="#Mymodal2" id="about_my" >QUI J'SUIS ?? </a>
+					</div>
+			</div>
+			<div id="google_map" class="col-md-6">
+					<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1JWEwUR2ClqzEOKIB-0UckFiVSpR8xN-y" " width="600px" height="400px"></iframe>
+			</div>
+			</div>		
+		</div>
+	</footer>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
